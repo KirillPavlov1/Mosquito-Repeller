@@ -13,6 +13,7 @@
 		ED877DD626D43349007D2F20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED877DD526D43349007D2F20 /* Preview Assets.xcassets */; };
 		ED877DE126D43349007D2F20 /* ultra_sound2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED877DE026D43349007D2F20 /* ultra_sound2Tests.swift */; };
 		ED877DEC26D43349007D2F20 /* ultra_sound2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED877DEB26D43349007D2F20 /* ultra_sound2UITests.swift */; };
+		ED877DFA26D44587007D2F20 /* audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED877DF926D44587007D2F20 /* audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		ED877DE726D43349007D2F20 /* ultra_sound2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ultra_sound2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED877DEB26D43349007D2F20 /* ultra_sound2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ultra_sound2UITests.swift; sourceTree = "<group>"; };
 		ED877DED26D43349007D2F20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED877DF926D44587007D2F20 /* audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = audio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				ED877DCE26D43348007D2F20 /* ultra_sound2App.swift */,
 				ED877DD026D43348007D2F20 /* ContentView.swift */,
+				ED877DF926D44587007D2F20 /* audio.swift */,
 				ED877DD226D43349007D2F20 /* Assets.xcassets */,
 				ED877DD726D43349007D2F20 /* Info.plist */,
 				ED877DD426D43349007D2F20 /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED877DD126D43348007D2F20 /* ContentView.swift in Sources */,
+				ED877DFA26D44587007D2F20 /* audio.swift in Sources */,
 				ED877DCF26D43348007D2F20 /* ultra_sound2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
